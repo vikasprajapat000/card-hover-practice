@@ -1,0 +1,21 @@
+.profile{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    transition: box-shadow 0.5ms ease-in 5ms;
+}
+img{
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+.intro{
+    padding: 2px 0 0 2px;
+}
+.profile:hover{
+    box-shadow: 5px 5px 8px black;
+}
+.hmm::selection{
+    color: rgba(255,100,100,0.8);
+}
